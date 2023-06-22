@@ -269,6 +269,7 @@
 							</div>
 							<span class="sp-thongbao" id="tbDiaChi"></span>
 						</div>
+						<span style="font-style: italic; font-size: 12px;"> (*) Vui lòng chọn loại người dùng</span>
 
 						<div class="form-group">
 							<div class="input-group">
@@ -282,8 +283,6 @@
 									<option>Khách Hàng</option>
 								</select>
 							</div>
-							<span style="font-style: italic; font-size: 12px;"> (*) Vui lòng chọn loại người dùng để tiếp tục nhập thông tin</span>
-
 							<span class="sp-thongbao" id="tbLoaiNguoiDung"></span>
 						</div>
 						<!-- Input theo loại người dùng -->
@@ -402,7 +401,7 @@
 
 				<!-- Modal footer -->
 				<div class="modal-footer" id="modal-footer">
-					<button id="btnThemNguoiDung" type="button" class="btn btn-success">Thêm người dùng</button>
+					<button id="btnThemNguoiDung" type="button" class="btn btn-success" onclick="themNguoiDung()">Thêm người dùng</button>
 					<button id="btnCapNhatNguoiDung" type="button" class="btn btn-success">Cập nhật</button>
 					<button id="btnDong" type="button" class="btn btn-danger" data-dismiss="modal">Đóng</button>
 				</div>
